@@ -1,0 +1,4 @@
+name: Hermes Watch
+
+on:
+  workflow_dispatch:
