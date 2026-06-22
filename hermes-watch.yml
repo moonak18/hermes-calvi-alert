@@ -2,3 +2,11 @@ name: Hermes Watch
 
 on:
   workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hermes Check
+        run: echo "Hermes Watch is working!"
